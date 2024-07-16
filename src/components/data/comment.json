@@ -1,0 +1,33 @@
+[
+    {
+        "id":1,
+        "content":"This is the first comment",
+        "votes":5,
+        "timestamp":"2024-06-16T10:00:00Z",
+        "replies":[
+          {
+              "id":2,
+              "content":"This is the reply first comment",
+              "votes":7,
+              "timestamp":"2024-06-16T10:00:00Z",
+               "replies":[]
+          },
+          {
+            "id":3,
+            "content":"This is the reply first comment",
+            "votes":7,
+            "timestamp":"2024-06-16T10:00:00Z",
+            "replies":[
+                {
+                    "id":4,
+                    "content":"This is the reply to the reply of first comment",
+                    "votes":5,
+                    "timestamp":"2024-06-16T10:00:00Z",
+                    "replies":[]
+                    
+                }
+            ]
+        }
+        ]
+    }
+]

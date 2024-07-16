@@ -1,0 +1,56 @@
+.add__comment{
+    display: flex;
+    gap:5px;
+    margin: 5px 0;
+
+}
+
+.comment__textarea{
+    width: 80%;
+    padding: 10px;
+}
+
+.comment__button{
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 10%;
+}
+
+.comment__button:hover{
+    background-color: #0090b3;
+
+}
+
+.comment{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    border-left: 1px solid #ccc;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(var(--cols,10),33px);
+    grid-template-rows: repeat(var(--rows,10),33px);
+    gap: 4px;
+
+}
+
+.box{
+    width: 33px;
+    height: 33px;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.selected{
+    background-color: darkgreen;
+}
