@@ -10,8 +10,8 @@ function App() {
        <h1>Nested components</h1>
        <NestedComponent 
         comments={CommentsJSON}
-        onSubmit={()=>{}}
-        onEdit={()=>{}}
+        onSubmit={()=>{ }}
+        onEdit={()=>{ }}
         onDownVote={()=>{}}
         onDelete={()=>{}}
         onUpVote={()=>{}}
